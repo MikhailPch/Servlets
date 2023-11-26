@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="servlets" />
+        <module name="beans" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="beans" target="11" />
+      <module name="JavaSpring_4_Servlets" target="17" />
+      <module name="servlets" target="11" />
       <module name="servlets_1" target="17" />
     </bytecodeTargetLevel>
   </component>
